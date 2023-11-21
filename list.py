@@ -27,3 +27,7 @@ print(cars)
 
 cars.sort(reverse = True)
 print(cars)
+
+newcars = sorted(cars)
+print(newcars)
+print(cars)
