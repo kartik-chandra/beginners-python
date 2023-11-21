@@ -128,3 +128,27 @@ print(sliced_list)  # Output: [7, 8, 9]
 # Get every second element from index 1 to 7
 sliced_list = my_list[1:8:2]
 print(sliced_list)  # Output: [1, 3, 5, 7]
+
+myFavourite = ["Mutton", "Hilsha", "Card"]
+myFriendsFavourite = myFavourite[:]
+
+myFavourite.append("Mango")
+
+print(myFavourite)
+print(myFriendsFavourite)
+
+
+#Tupple
+tuple1 = (1,"Saurav Biswas", "2500000", 4.6, "Google")
+print(tuple1[1])
+print(tuple1[3])
+
+for item in tuple1:
+    print(item)
+    
+
+thisYear = 2024
+
+if (thisYear %2 == 0 or (thisYear % 400 == 0 and thisYear % 100 != 0)):
+    print("It is a Leapyear")
+    
