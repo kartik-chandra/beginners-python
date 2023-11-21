@@ -22,3 +22,4 @@ print ("[" + text1.strip() + "] - strip")
 print ("[" + text1.rstrip() + "] - rstrip")
 print ("[" + text1.lstrip() + "] - lstrip")
 
+print("All about string")
