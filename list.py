@@ -31,3 +31,5 @@ print(cars)
 newcars = sorted(cars)
 print(newcars)
 print(cars)
+
+print(f"Total number of cars: {len(cars)}")
