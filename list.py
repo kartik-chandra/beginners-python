@@ -68,3 +68,5 @@ print(cars)
 
 cars.reverse()
 print(cars)
+
+print(f"Total number of cars: {len(cars)}")
