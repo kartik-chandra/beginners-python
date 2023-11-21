@@ -15,3 +15,10 @@ print("title: " + mytest.title())
 print("upper: " + mytest.upper())
 print("lower: " + mytest.lower())
 
+#strip will reduce spaces from string
+
+text1 = " trip testing "
+print ("[" + text1.strip() + "] - strip")
+print ("[" + text1.rstrip() + "] - rstrip")
+print ("[" + text1.lstrip() + "] - lstrip")
+
