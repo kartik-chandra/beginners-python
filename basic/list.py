@@ -150,5 +150,5 @@ for item in tuple1:
 thisYear = 2024
 
 if (thisYear %2 == 0 or (thisYear % 400 == 0 and thisYear % 100 != 0)):
-    print("It is a Leapyear")
+    print("It is a Leap year")
     
