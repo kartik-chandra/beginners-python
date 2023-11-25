@@ -16,10 +16,10 @@ with open('./data/result.txt', 'a') as file_object:
     file_object.write("========== ONS ==========\n")
 
 
-fileText = "i am testing"
-fileName = input("Input your file name: ")
+# fileText = "i am testing"
+# fileName = input("Input your file name: ")
 
-with open('./data/' + fileName + ".txt", 'a') as file_object:
-    file_object.write(fileText)
+# with open('./data/' + fileName + ".txt", 'a') as file_object:
+#     file_object.write(fileText)
     
 
